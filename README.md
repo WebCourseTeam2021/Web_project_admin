@@ -1,8 +1,8 @@
-# Web_project
+# Web_project_admin
 
 Phase 01 tasks:
 - [ ] Việt hóa Template
-- [x] Xóa chi tiết thừa trong code
+- [ ] Xóa chi tiết thừa trong code
 - [ ] Xóa các file không dùng
-- [x] Báo cáo (Có ảnh chụp giao diện và mô hình quan hệ)
+- [ ] Tạo trang user-detail, order-detail
 - [ ] Hosting code
