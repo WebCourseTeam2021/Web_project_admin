@@ -25,6 +25,11 @@ app.get('/product-detail', (req, res) => {res.render('product-detail')})
 app.get('/add-product', (req, res) => {res.render('add-product')})
 app.get('/orders-list', (req, res) => {res.render('orders-list')})
 app.get('/customers-list', (req, res) => {res.render('customers-list')})
+
+app.get('/login', (req, res) => {res.render('login', {layout: 'auth-layout'})})
+app.get('/register', (req, res) => {res.render('register', {layout: 'auth-layout'})})
+app.get('/pass-recovery', (req, res) => {res.render('pass-recovery', {layout: 'auth-layout'})})
+
 app.get('*', (req, res) => {res.render('404')})
 
 app.listen(port, () => {
