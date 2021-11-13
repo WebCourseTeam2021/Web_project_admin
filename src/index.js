@@ -23,6 +23,8 @@ app.get('/', (req, res) => {res.render('index')})
 app.get('/products-list', (req, res) => {res.render('products-list')})
 app.get('/product-detail', (req, res) => {res.render('product-detail')})
 app.get('/add-product', (req, res) => {res.render('add-product')})
+app.get('/product-edit', (req, res) => {res.render('product-edit')})
+
 app.get('/orders-list', (req, res) => {res.render('orders-list')})
 app.get('/customers-list', (req, res) => {res.render('customers-list')})
 

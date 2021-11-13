@@ -1,0 +1,314 @@
+<body data-sidebar="dark">
+    <!-- Begin page -->
+    <div id="layout-wrapper">
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="main-content">
+
+            <div class="page-content">
+                <div class="container-fluid">
+
+                    <!-- start page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box d-flex align-items-center justify-content-between">
+                                <h4 class="mb-0">Edit Product</h4>
+
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Ecommerce</a></li>
+                                        <li class="breadcrumb-item active">Edit Product</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end page title -->
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-body">
+
+                                    <div id="addproduct-nav-pills-wizard" class="twitter-bs-wizard">
+                                        <ul class="twitter-bs-wizard-nav">
+                                            <li class="nav-item">
+                                                <a href="#basic-info" class="nav-link" data-toggle="tab">
+                                                    <span class="step-number">01</span>
+                                                    <span class="step-title">Basic Info</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#product-img" class="nav-link" data-toggle="tab">
+                                                    <span class="step-number">02</span>
+                                                    <span class="step-title">Product Img</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <div class="tab-content twitter-bs-wizard-tab-content">
+                                            <div class="tab-pane" id="basic-info">
+                                                <h4 class="card-title">Basic Information</h4>
+                                                <p class="card-title-desc">Fill all information below</p>
+
+                                                <form>
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label for="productname">Book name</label>
+                                                                <input id="productname" name="productname" type="text"
+                                                                    class="form-control"
+                                                                    value="How to win friends and influence people">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <div class="form-group">
+                                                                <label for="productname">Author</label>
+                                                                <input id="productname" name="productname" type="text"
+                                                                    class="form-control" value="Dale Carnegie">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <div class="form-group">
+                                                                <label for="publisher">Publisher</label>
+                                                                <input id="publisher" name="publisher" type="text"
+                                                                    class="form-control" value="Simon and Schuster">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <div class="form-group">
+                                                                <label for="isbn">ISBN</label>
+                                                                <input id="isbn" name="isbn" type="text"
+                                                                    class="form-control" value="1-4391-6734-6">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <div class="form-group">
+                                                                <label for="realese-year">Release year</label>
+                                                                <input id="realese-year" name="realese-year"
+                                                                    type="number" class="form-control" value="1936"
+                                                                    min="0" max="2099">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <div class="form-group">
+                                                                <label for="price">Original price</label>
+                                                                <input id="price" name="price" type="number" min="0"
+                                                                    value="10" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <div class="form-group">
+                                                                <label for="sale-price">Promotion price</label>
+                                                                <input id="sale-price" name="sale-price" type="number"
+                                                                    min="0" value="8" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label class="control-label">Category 01</label>
+                                                                <select class="form-control select2">
+                                                                    <option>Self-help</option>
+                                                                    <option value="SH">Self-help</option>
+                                                                    <option value="FA">Fantasy</option>
+                                                                    <option value="SF">Sci-Fi</option>
+                                                                    <option value="MY">Mystery</option>
+                                                                    <option value="TL">Thriller</option>
+                                                                    <option value="RO">Romance</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label class="control-label">Category 02</label>
+                                                                <select class="form-control select2">
+                                                                    <option>Select</option>
+                                                                    <option value="SH">Self-help</option>
+                                                                    <option value="FA">Fantasy</option>
+                                                                    <option value="SF">Sci-Fi</option>
+                                                                    <option value="MY">Mystery</option>
+                                                                    <option value="TL">Thriller</option>
+                                                                    <option value="RO">Romance</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-4">
+
+                                                            <div class="form-group">
+                                                                <label for="page-num">Number of pages</label>
+                                                                <input id="page-num" name="page-num" type="number"
+                                                                    class="form-control" value="219">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4">
+
+                                                            <div class="form-group">
+                                                                <label for="language">Language</label>
+                                                                <input id="language" name="language" type="text"
+                                                                    class="form-control" value="English">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="form-group">
+                                                                <label for="price">Edition</label>
+                                                                <input id="price" name="price" type="text"
+                                                                    class="form-control" value="Special">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="productdesc">Product Description</label>
+                                                        <textarea class="form-control" id="productdesc" rows="5">You can go after the job you want—and get it! You can take the job you have—and improve it! You can take any situation—and make it work for you!
+                                                        </textarea>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="tab-pane" id="product-img">
+                                                <h4 class="card-title">Product Images</h4>
+                                                <div class="product-color d-flex justify-content-center">
+                                                    <span class="d-flex flex-column align-items-center mr-2">
+                                                        <a>
+                                                            <div class="product-color-item ">
+                                                                <img src="/images/product/img-1.png" alt=""
+                                                                    class="avatar-lg">
+                                                            </div>
+                                                        </a>
+                                                        <!-- <div>
+                                                            <button type="button" class="btn btn-primary">
+                                                                <i class="fas fa-trash-alt"></i>
+                                                            </button>
+                                                        </div> -->
+                                                    </span>
+                                                    <span class="d-flex flex-column align-items-center mr-2">
+                                                        <a href="/images/product/img-5.png">
+                                                            <div class="product-color-item">
+                                                                <img src="/images/product/img-5.png" alt=""
+                                                                    class="avatar-lg">
+                                                            </div>
+                                                        </a>
+                                                    </span>
+                                                    <span class="d-flex flex-column align-items-center mr-2">
+                                                        <a href="/images/product/img-3.png">
+                                                            <div class="product-color-item">
+                                                                <img src="/images/product/img-3.png" alt=""
+                                                                    class="avatar-lg">
+                                                            </div>
+                                                        </a>
+                                                    </span>
+                                                </div>
+                                                <form action="/" method="post" class="dropzone">
+                                                    <div class="fallback">
+                                                        <input name="file" type="file" multiple />
+                                                    </div>
+
+                                                    <div class="dz-message needsclick">
+                                                        <div class="mb-3">
+                                                            <i class="display-4 text-muted ri-upload-cloud-2-line"></i>
+                                                        </div>
+
+                                                        <h4>Drop files here or click to upload.</h4>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="tab-pane" id="product-img">
+                                                <h4 class="card-title">Product Images</h4>
+                                                <div class="form-group">
+                                                    <div class="product-color d-flex">
+                                                        <span class="d-flex flex-column align-items-center mr-2">
+                                                            <a>
+                                                                <div class="product-color-item ">
+                                                                    <img src="/images/product/img-1.png" alt=""
+                                                                        class="avatar-lg">
+                                                                </div>
+                                                            </a>
+                                                            <!-- <div>
+                                                                <button type="button" class="btn btn-primary">
+                                                                    <i class="fas fa-trash-alt"></i>
+                                                                </button>
+                                                            </div> -->
+                                                        </span>
+                                                        <span class="d-flex flex-column align-items-center mr-2">
+                                                            <a href="/images/product/img-5.png">
+                                                                <div class="product-color-item">
+                                                                    <img src="/images/product/img-5.png" alt=""
+                                                                        class="avatar-lg">
+                                                                </div>
+                                                            </a>
+                                                        </span>
+                                                        <span class="d-flex flex-column align-items-center mr-2">
+                                                            <a href="/images/product/img-3.png">
+                                                                <div class="product-color-item">
+                                                                    <img src="/images/product/img-3.png" alt=""
+                                                                        class="avatar-lg">
+                                                                </div>
+                                                            </a>
+                                                        </span>
+                                                    </div>
+                                                    <form acdivtion="/" method="post" class="dropzone">
+                                                        <div class="fallback">
+                                                            <input name="file" type="file" multiple />
+                                                        </div>
+
+                                                        <div class="dz-message needsclick">
+                                                            <div class="mb-3">
+                                                                <i
+                                                                    class="display-4 text-muted ri-upload-cloud-2-line"></i>
+                                                            </div>
+
+                                                            <h4>Drop files here or click to upload.</h4>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <ul
+                                                class="pager wizard twitter-bs-wizard-pager-link d-flex justify-content-between">
+                                                <li class="previous"><a href="#">Previous</a></li>
+                                                <li>
+                                                    <button type="submit"
+                                                        class="btn btn-primary mr-2 waves-effect waves-light">Save
+                                                        Changes</button>
+                                                    
+                                                        <a class="btn waves-effect" href="/product-detail">Cancel</a>
+                                                </li>
+                                                <li class="next"><a href="#">Next</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end row -->
+
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+
+
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <script>document.write(new Date().getFullYear())</script> © Nazox.
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="text-sm-right d-none d-sm-block">
+                                    Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesdesign
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+</body>
